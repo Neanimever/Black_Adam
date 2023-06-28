@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./contact.css">
+        <title>Contact us</title>
+    </head>
+
+    <body>
+        <form action="./contact.html">
+            <div class="all">
+                <h1>Contact us</h1>
+    
+                <div class="form">
+                    <a href="../../home.html">
+                        <img src="../../src/logo-black-adam-removebg-preview.png" title="Go back" />
+                    </a>
+    
+                    <label>Full name:
+                        <input type="text" name="name" required/>
+                    </label>
+        
+                    <label>Email:
+                        <input id="email" type="email" name="email" required/>
+                    </label>
+        
+                    <label>Phone number:
+                        <input type="tel" id="telefone" name="telefone" pattern="[0-9]{2} [9]{1} [0-9]{4}-[0-9]{4}"/>
+                        <small>Format: DD 9 XXXX-XXXX</small>
+                    </label>
+        
+                    <label>Leave a message:
+                        <textarea id="textarea" rows="10" required></textarea>
+                    </label>
+        
+                    <button>Send</button>
+                </div>
+            </div>
+        </form>
+    </body>
+</html>

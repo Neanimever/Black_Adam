@@ -1,0 +1,239 @@
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&family=Oswald&display=swap');
+
+*   {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    background-color: #000;
+}
+
+main    {
+    width: 100%;
+}
+
+.intro  {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+img {
+    width: 15rem;
+    height: auto;
+}
+
+p   {
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    font-size: 1.4rem;
+    color: #fff;
+    padding-bottom: 30px;
+}
+
+h1  {
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    color: gold;
+}
+
+.cast-director  {
+    width: 52%;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+    margin-left: 40px;
+}
+
+.cast-script    {
+    width: 52%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(255px, 1fr));
+    row-gap: 2rem;
+    column-gap: 6rem;
+    margin-left: 40px;
+    margin-bottom: 30px;
+}
+
+.cast-cast  {
+    width: 80%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(255px, 1fr));
+    row-gap: 2rem;
+    column-gap: 6rem;
+    margin-left: 40px;
+    margin-bottom: 30px;
+}
+
+.cast-sound {
+    width: 52%;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+    margin-left: 40px;
+}
+
+.cast-producer  {
+    width: 80%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(255px, 1fr));
+    row-gap: 2rem;
+    column-gap: 6rem;
+    margin-left: 40px;
+    margin-bottom: 30px;
+}
+
+.card    {
+    width: 100%;
+    height: 40rem;
+    background-size: cover;
+    background-position: 50% 50%;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: .5s;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    font-size: 1.3rem;
+    color: gold;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.card:hover {
+    transform: scale(1.02);
+}
+
+.director  {
+    background-image: url('https://th.bing.com/th/id/OIP.Ef68XIweLS79OL5MhtAWoQHaKx?pid=ImgDet&rs=1');
+}
+
+.script-1   {
+    background-image: url('https://th.bing.com/th/id/R.8a1ecd9f836e1d7f4ff95e083a7b7f04?rik=yFcuihbkkDR%2bzA&riu=http%3a%2f%2fhairstyles.thehairstyler.com%2fhairstyle_views%2ffront_view_images%2f5527%2foriginal%2fAdam-Sztykiel.jpg&ehk=UAUMfF0mkOi0WkllkNPrSmadJ4C5TOk8ZAyt3sws9IU%3d&risl=&pid=ImgRaw&r=0');
+}
+
+.script-2   {
+    background-image: url('https://th.bing.com/th/id/R.47b7cd48838750fa983d0b3c2c698b2f?rik=YVKvu%2fgWQ4dcVQ&riu=http%3a%2f%2fwww.hdtvlivestream.com%2fwp-content%2fuploads%2f2020%2f03%2fdCZSSEg3B8Kkax1uc5FyIhEW3Wm.jpg&ehk=NFjx6OIaD1qlsDbTpbWgo16UUq3RdofQ6TbcbkiI1uo%3d&risl=&pid=ImgRaw&r=0');
+}
+
+.cast-1 {
+    background-image: url('../../src/Dwayne.jpg');
+}
+
+.cast-2 {
+    background-image: url('../../src/Aldis.png');
+}
+
+.cast-3 {
+    background-image: url('../../src/Pierce.jpg');
+}
+
+.cast-4 {
+    background-image: url('https://th.bing.com/th/id/OIP.jneq47iiTUJc2l_BFv3k3QHaKT?pid=ImgDet&rs=1');
+}
+
+.cast-5 {
+    background-image: url('https://th.bing.com/th/id/OIP.0EuzAwaG77_bAVKODzlmmAHaLI?pid=ImgDet&rs=1');
+}
+
+.cast-6 {
+    background-image: url('https://th.bing.com/th/id/OIP.kaqS_PBSkEgzDRZXbhH0DAAAAA?pid=ImgDet&rs=1');
+}
+
+.cast-7 {
+    background-image: url('https://www.esquireme.com/cloud/2021/09/08/Marwan-kenzari-old-guard-esquire.jpg');
+}
+
+.cast-8 {
+    background-image: url('https://superstarsbio.com/wp-content/uploads/2021/10/Bodhi-Sabongui-bio.jpg')
+}
+
+.cast-9 {
+    background-image: url('https://th.bing.com/th/id/R.bee033e80d0cbc3710e1536fc84ed99c?rik=U17D1L8%2f2CNLEQ&pid=ImgRaw&r=0');
+}
+
+.cast-10    {
+    background-image: url('https://www.mmm.edu/live/image/gid/95/width/280/23123_James_Cusati-Moyer_2.rev.1571790266.jpg');
+}
+
+.cast-11    {
+    background-image: url('https://th.bing.com/th/id/OIP.OSQwrZL0tK0PDwi0LJbRrwHaLH?pid=ImgDet&rs=1');
+}
+
+.cast-12    {
+    background-image: url('https://th.bing.com/th/id/OIP.bwW7S1b7QfJBJe6IpvylSgHaHk?pid=ImgDet&rs=1');
+}
+
+.cast-13    {
+    background-image: url('https://th.bing.com/th/id/R.434ee2948e02fb4e0abdab64189a1183?rik=5ahs1crWjAyNww&riu=http%3a%2f%2ffr.web.img6.acsta.net%2fpictures%2f19%2f04%2f05%2f16%2f10%2f4514744.jpg&ehk=qkiHv0akJoaOdp%2b8f2BhwlpITwU6gROXMo6vhQkkEBQ%3d&risl=&pid=ImgRaw&r=0');
+}
+
+.cast-14    {
+    background-image: url('https://media.npr.org/assets/img/2019/01/27/gettyimages-1078332640_custom-8603fbaf80a936876a9e578d2ec61a4ecfe4da9f-s1200.jpg');
+}
+
+.cast-15    {
+    background-image: url('https://th.bing.com/th/id/R.4f3c3a181a70f1e451a1e9be2f7be3be?rik=2DC9V7aM9iYzhg&pid=ImgRaw&r=0');
+}
+
+.cast-16    {
+    background-image: url('https://th.bing.com/th/id/R.55d876d776e727d5e1cccfec24b3127a?rik=dAlBisgR6F3oRw&pid=ImgRaw&r=0');
+}
+
+.cast-17    {
+    background-image: url('https://img.sfilm.hu/w300/g5V4cDRuky00MqyLM6i1ymPwBxi.jpg');
+}
+
+.cast-18    {
+    background-image: url('https://media.gettyimages.com/id/611693888/pt/foto/actor-christopher-matthew-cook-attends-the-premiere-of-dog-eat-dog-at-the-egyptian-theatre-on.jpg?s=612x612&w=gi&k=20&c=ltAtSWP28obJadgYB-Yi2zHiypLq4y4gy3efSlq5QJo=');
+}
+
+.sound  {
+    background-image: url('https://m.media-amazon.com/images/M/MV5BY2YxNTUwMzQtZGMwOS00ZGNkLWI3YjctY2JlMWVhN2RlNzJjXkEyXkFqcGdeQXVyNjUxMjc1OTM@._V1_.jpg');
+}
+
+.producer-1 {
+    background-image: url('https://th.bing.com/th/id/OIP.TgPNsSDBJUpobP9YC1y6GgHaHa?pid=ImgDet&rs=1');
+}
+
+.producer-2 {
+    background-image: url('https://m.media-amazon.com/images/M/MV5BOGE3MzQ5ODEtMjZmNi00MjY1LTlkZmQtYmJkNjM0Y2ExMGNiXkEyXkFqcGdeQXVyMTEzNTE2NzQx._V1_FMjpg_UX1000_.jpg');
+}
+
+.producer-3 {
+    background-image: url('https://th.bing.com/th/id/R.88cb588577f867daa239154dc4db27b1?rik=DMLU2OGKTha5zA&riu=http%3a%2f%2fi.dailymail.co.uk%2fi%2fpix%2f2014%2f06%2f22%2farticle-2664805-1EF15C5D00000578-659_634x992.jpg&ehk=ChTs9GdwQQLuuYwsr85Cej52U7ptSXSyBW5S0sAU%2bGQ%3d&risl=&pid=ImgRaw&r=0');
+}
+
+.producer-4 {
+    background-image: url('https://th.bing.com/th/id/R.0337cd290da9e6d67e54600b4f75cec6?rik=6OnQ%2fn9U0nbtbQ&pid=ImgRaw&r=0');
+}
+
+.producer-5 {
+    background-image: url('https://th.bing.com/th/id/OIP.NI8t4KwvJ89mZc3SwJ-20AHaKh?pid=ImgDet&rs=1');
+}
+
+.producer-6 {
+    background-image: url('https://th.bing.com/th/id/OIP.8UD_hIC4M-pshfzSY1ox8AHaLH?pid=ImgDet&rs=1');
+}
+
+.producer-7 {
+    background-image: url('../../src/Dwayne.jpg');
+}
+
+.producer-8 {
+    background-image: url('https://th.bing.com/th/id/R.2e9c2a286b6e1b770c5df54f4dbc6923?rik=VvAWtBUjXokf9A&pid=ImgRaw&r=0');
+}
+
+.producer-9 {
+    background-image: url('https://th.bing.com/th/id/OIP.ox89fBpeBfLFBgZZbMnWjAHaIy?pid=ImgDet&rs=1');
+}
+
+.producer-10 {
+    background-image: url('https://th.bing.com/th/id/OIP.II1HoWW32KdgFwXH9VjctwHaHZ?pid=ImgDet&w=700&h=699&rs=1');
+}
+
+.producer-11 {
+    background-image: url('https://th.bing.com/th/id/R.65fe29e6b9eb9914db7ec8a822f393e1?rik=TDdmyrK%2fGcIzQg&pid=ImgRaw&r=0');
+}
+
+.producer-12 {
+    background-image: url('https://th.bing.com/th/id/R.53229638f6ff4c2634905062e19dbc11?rik=oJc5hjHcWLOv%2bA&pid=ImgRaw&r=0');
+}
